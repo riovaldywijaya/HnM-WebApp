@@ -1,0 +1,31 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.containerr {
+  width: 1800px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+#addButton {
+  width: 100%;
+  background-color: black;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#addButton:hover {
+  background-color: rgb(53, 53, 53);
+}
+
+#cancelButton {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  width: 100%;
+  border-radius: 0px;
+  margin-bottom: 50px;
+}

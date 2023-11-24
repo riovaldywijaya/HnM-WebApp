@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "email": "admin1@mail.com",
+      "password": "admin1",
+      "role": "admin",
+      "phoneNumber": "082123456789",
+      "address": "Jl. di mana aja boleh, Bandung"
+    },
+    {
+      "id": 2,
+      "username": "admin2",
+      "email": "admin2@mail.com",
+      "password": "admin2",
+      "role": "admin",
+      "phoneNumber": "082223456789",
+      "address": "Jl. di mana-mana, Jakarta"
+    },
+    {
+      "email": "ronaldo@mail.com",
+      "password": "ronaldo",
+      "role": "admin",
+      "username": "Christiano Ronaldo",
+      "phoneNumber": "082123456789",
+      "address": "jl. di mana aja boleh kok",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Regular Fit Hoodie",
+      "slug": "regular-fit-hoodie",
+      "description": "Long-sleeved hoodie in soft sweatshirt fabric with a kangaroo pocket, double-layered drawstring hood with a wrapover front, and ribbing at the cuffs and hem.",
+      "price": 599900,
+      "mainImg": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/98eb7f1a7c97717394e37565abde847a382c2bf8_xxl-1.jpg",
+      "categoryId": 1,
+      "authorId": 1,
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Jogger Kargo",
+      "slug": "jogger-kargo",
+      "description": "CONSCIOUS CHOICE Joggers in a cotton weave with covered elastication and a drawstring at the waist, diagonal side pockets and flap back and leg pockets with concealed press-studs. Tapered legs with seams and darts at the knees and covered elastication at the hems.",
+      "price": 599900,
+      "mainImg": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/35c1b7872de7c3612897ae435b9aff377a472139_xxl-1.jpg",
+      "categoryId": 2,
+      "authorId": 1,
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Twill Overshirt",
+      "slug": "twill-overshirt",
+      "description": "Overshirt in twill with a collar, buttons down the front and a yoke at the back. Flap chest pockets with a button, and long sleeves with buttoned cuffs.",
+      "price": 699900,
+      "mainImg": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/b71a4816bfdb50697f600878355a03255c482691_xxl-1.jpg",
+      "categoryId": 3,
+      "authorId": 1,
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Regular Fit Sweatshorts",
+      "slug": "regular-fit-sweatshorts",
+      "description": "Shorts in lightweight sweatshirt fabric made from a cotton blend. Regular fit with an elasticated, drawstring waist, side pockets, an open back pocket and raw, roll-edge hems.",
+      "price": 199900,
+      "mainImg": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/037f464cb7f36fa982c8d6c3b7bef7e710ba3c5a_xxl-1.jpg",
+      "categoryId": 4,
+      "authorId": 1,
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hoodies & Sweatshirt",
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Trousers",
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Shirts",
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Shorts",
+      "createdAt": "2023-10-30T12:00:00Z",
+      "updatedAt": "2023-10-30T12:00:00Z"
+    }
+  ],
+  "images": [
+    {
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/aefe0393641232fed5ecc388c2c521d5ffa212b3_xxl-1.jpg"
+    },
+    {
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/83e94fd0fa9e882916f35c313f38b3225cc4d8e7_xxl-1.jpg"
+    },
+    {
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/da05cf050baa9ae0d5f68b93d6b2578d360a06ea_xxl-1.jpg"
+    },
+    {
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/74fc12302a8ee00fb0df8236d22406887591fff4_xxl-1.jpg"
+    },
+    {
+      "productId": 1,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/916f63961cb1f65b620d6c2c0f3f5936923e38bc_xxl-1.jpg"
+    },
+    {
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/f89dd8bbc8ddab0215d9096bec9e6b793c865438_xxl-1.jpg"
+    },
+    {
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/d61324f4ba6f7e2bf2731196193278479390cc3d_xxl-1.jpg"
+    },
+    {
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/f8050d9e8bc85baba5daef1cf0bb0707790b1be6_xxl-1.jpg"
+    },
+    {
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/2d8a0ff67d37c3916b74961f71746d57b8447ca2_xxl-1.jpg"
+    },
+    {
+      "productId": 2,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/c4e38674ac47e97e3a85792c4fadb4f0b13f749d_xxl-1.jpg"
+    },
+    {
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/9de66511dc5558abc2adc23ba981911bd097b5f4_xxl-1.jpg"
+    },
+    {
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/d40f6f9e265b09ca728f6543f1d993b1e073fef6_xxl-1.jpg"
+    },
+    {
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/014409d37ec8321e520467ba8e68839cfbfd13ab_xxl-1.jpg"
+    },
+    {
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/a221b6a6b233de799a2329d76ab9e9cc94ea6533_xxl-1.jpg"
+    },
+    {
+      "productId": 3,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/5bce2e369384c3b120f41822131071b8bda48d23_xxl-1.jpg"
+    },
+    {
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/39e3deb1dace7dff6c36694c760d5b8de9005c9c_xxl-1.jpg"
+    },
+    {
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/e151f8922c41550a7bfa2e9dbc2abd7c1493be5e_xxl-1.jpg"
+    },
+    {
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/9d7ec1aa9f20a5d86a3187519b055aeb8af252e0_xxl-1.jpg"
+    },
+    {
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/7c25ef56eca79ff33e2768b5111c36b4fbdaed9b_xxl-1.jpg"
+    },
+    {
+      "productId": 4,
+      "imgUrl": "https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/109b11d675a34ad496260e278d6a8e7107c85c84_xxl-1.jpg"
+    }
+  ]
+}
